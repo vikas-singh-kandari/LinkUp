@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:linkup/view/auth/LoginScreen.dart';
 import 'package:linkup/widget/bottom%20baar.dart';  // Import your BottomBars widget
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: true,
       ),
-      home: const BottomBars(),  // This will be your home widget with bottom navigation
+      home: Loginscreen(),  // This will be your home widget with bottom navigation
     );
   }
 }

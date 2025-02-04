@@ -40,6 +40,11 @@ dependencies:
   animated_card: ^2.0.0
   salomon_bottom_bar: ^3.3.2
   anim_search_bar: ^2.0.3
+  firebase_core: ^3.10.1
+  firebase_storage: ^12.4.1
+  firebase_auth: ^5.4.1
+  fluttertoast: ^8.2.10
+  cloud_firestore: ^5.6.2
 
 
 dev_dependencies:
